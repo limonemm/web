@@ -64,7 +64,7 @@ ul {
 }
 
 .nav-main ul li a {
-    padding: padding 6px;
+    padding: 6px;
 }
 .nav-main ul li a:hover {
     border-bottom: 2px solid #1ba5b3;
@@ -92,6 +92,7 @@ hr {
     margin: 10px 0;
 }
 
+
 .showcase {
     width: 100%;
     height: 550px;
@@ -105,6 +106,11 @@ hr {
     justify-content: flex-end;
 }
 
+.video-bajlum {
+    margin: auto;
+    width: 560px;
+    height: 315px;
+}
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -175,6 +181,10 @@ margin-bottom: 10px;
     width: 100%;
     height: 350px;
     background: url('logo-banner1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
      
 }
 
@@ -283,7 +293,7 @@ margin-bottom: 10px;
             padding: 30px;
             opacity: .9;
             transform: translateX(-400px); 
-            transition: transform .5s ease-in-out;  
+            transition: transform .5s ease-in;  
         }
 
         .nav-main ul.nav-menu.show {
@@ -331,5 +341,9 @@ margin-bottom: 10px;
         .footer-links .footer-container {
         grid-template-columns: 1fr;
     }    
+    .video-bajlum {
+       width: 200px;
+       height: 150px;
+    }
 
 }
