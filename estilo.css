@@ -110,6 +110,7 @@ hr {
     margin: auto;
     width: 560px;
     height: 315px;
+    
 }
 .btn {
     cursor: pointer;
@@ -324,6 +325,12 @@ margin-bottom: 10px;
     }
 
     @media (max-width: 500px) {
+           .video-bajlum {
+            margin: auto;
+            width: 300px;
+            height: 200px;
+         }
+
         .news-cards {
             grid-template-columns: 1fr;
         }
@@ -342,8 +349,9 @@ margin-bottom: 10px;
         grid-template-columns: 1fr;
     }    
     .video-bajlum {
-       width: 200px;
-       height: 150px;
+       margin:auto;
+       width: 300px;
+       height: 200px;
     }
 
 }
