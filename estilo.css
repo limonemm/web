@@ -346,8 +346,8 @@ margin-bottom: 10px;
 
            .video-bajlum {
             margin: auto;
-            width: 300px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
          }
 
         .news-cards {
@@ -368,4 +368,4 @@ margin-bottom: 10px;
         grid-template-columns: 1fr;
     }    
     
-}
+} 
