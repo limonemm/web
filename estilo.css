@@ -110,7 +110,7 @@ hr {
     margin: auto;
     width: 560px;
     height: 315px;
-    
+
 }
 .btn {
     cursor: pointer;
@@ -325,6 +325,19 @@ margin-bottom: 10px;
     }
 
     @media (max-width: 500px) {
+        .showcase {
+            width: 100%;
+            height: 550px;
+            color: #ecdacc;
+            background: #522606;
+            padding: 50px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
            .video-bajlum {
             margin: auto;
             width: 300px;
@@ -348,10 +361,5 @@ margin-bottom: 10px;
         .footer-links .footer-container {
         grid-template-columns: 1fr;
     }    
-    .video-bajlum {
-       margin:auto;
-       width: 300px;
-       height: 200px;
-    }
-
+    
 }
